@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Favors" id="Au6-BE-JHH"/>
+                    <tabBarItem key="tabBarItem" title="My Favors" image="angel-25" selectedImage="angel_filled-25" id="Au6-BE-JHH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFZ-SZ-9On" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favors Feed" id="udF-SW-ZVq"/>
+                    <tabBarItem key="tabBarItem" title="Favors Feed" image="helping_hand-25" selectedImage="helping_hand_filled-25" id="udF-SW-ZVq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iy9-QF-B7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -75,11 +75,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Profile" id="j0z-gx-uET"/>
+                    <tabBarItem key="tabBarItem" title="My Profile" image="user-25" selectedImage="user_filled-25" id="j0z-gx-uET"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IoQ-Nt-sGW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="187" y="1873"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="angel-25" width="25" height="25"/>
+        <image name="angel_filled-25" width="25" height="25"/>
+        <image name="helping_hand-25" width="25" height="25"/>
+        <image name="helping_hand_filled-25" width="25" height="25"/>
+        <image name="user-25" width="25" height="25"/>
+        <image name="user_filled-25" width="25" height="25"/>
+    </resources>
 </document>
