@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xmz-U4-dAX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xmz-U4-dAX">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -9,7 +9,7 @@
         <!--My Favors-->
         <scene sceneID="2WQ-V6-Eya">
             <objects>
-                <viewController id="53G-5R-66J" sceneMemberID="viewController">
+                <viewController id="53G-5R-66J" customClass="MyFavorViewController" customModule="oweUone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kyg-ZV-hBf"/>
                         <viewControllerLayoutGuide type="bottom" id="Yz3-mm-WhC"/>
@@ -44,7 +44,7 @@
         <!--Favors Feed-->
         <scene sceneID="sk8-ss-yLy">
             <objects>
-                <viewController id="MS5-zh-doa" sceneMemberID="viewController">
+                <viewController id="MS5-zh-doa" customClass="FavorFeedViewController" customModule="oweUone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qFE-0E-fId"/>
                         <viewControllerLayoutGuide type="bottom" id="THV-a3-TRt"/>
@@ -132,7 +132,7 @@
         <!--My Profile-->
         <scene sceneID="Zml-TF-pQr">
             <objects>
-                <viewController id="jbB-KV-NET" sceneMemberID="viewController">
+                <viewController id="jbB-KV-NET" customClass="ProfileViewController" customModule="oweUone" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1ta-t7-JUz"/>
                         <viewControllerLayoutGuide type="bottom" id="mQH-M1-yPU"/>
