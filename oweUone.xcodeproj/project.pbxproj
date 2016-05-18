@@ -183,6 +183,19 @@
 			path = oweUoneUITests;
 			sourceTree = "<group>";
 		};
+		B510DF0B4E7DC66A7A816918 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFA2C9C97360C54A165A27 /* Pods-oweUone.debug.xcconfig */,
+				87B46851F2FB9F34F5DCBBCD /* Pods-oweUone.release.xcconfig */,
+				7740061A11A1743BEF3342D3 /* Pods-oweUoneTests.debug.xcconfig */,
+				F6F56D844ABE508C71D7FA0B /* Pods-oweUoneTests.release.xcconfig */,
+				0BB82745D64DAFBC9B15E2D9 /* Pods-oweUoneUITests.debug.xcconfig */,
+				452191D7488799BB4BA33FF8 /* Pods-oweUoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
