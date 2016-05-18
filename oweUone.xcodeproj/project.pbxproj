@@ -18,6 +18,7 @@
 		AE6807F11CE56F60004CFE60 /* oweUoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807F01CE56F60004CFE60 /* oweUoneTests.swift */; };
 		AE6807FC1CE56F60004CFE60 /* oweUoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */; };
 		AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE733E4C1CEBF8EB00061A9B /* Favor.swift */; };
+		AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */; };
 		AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */; };
 		AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */; };
 		AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */; };
@@ -64,6 +65,7 @@
 		AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oweUoneUITests.swift; sourceTree = "<group>"; };
 		AE6807FD1CE56F60004CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE733E4C1CEBF8EB00061A9B /* Favor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favor.swift; sourceTree = "<group>"; };
+		AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-20160412/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorFeedViewController.swift; sourceTree = "<group>"; };
 		AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorDetailViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */,
+				AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +107,7 @@
 		212FE30667FD6CA88E475521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */,
 				182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */,
 				5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */,
 				1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */,
@@ -181,19 +185,6 @@
 				AE6807FD1CE56F60004CFE60 /* Info.plist */,
 			);
 			path = oweUoneUITests;
-			sourceTree = "<group>";
-		};
-		B510DF0B4E7DC66A7A816918 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D1FFA2C9C97360C54A165A27 /* Pods-oweUone.debug.xcconfig */,
-				87B46851F2FB9F34F5DCBBCD /* Pods-oweUone.release.xcconfig */,
-				7740061A11A1743BEF3342D3 /* Pods-oweUoneTests.debug.xcconfig */,
-				F6F56D844ABE508C71D7FA0B /* Pods-oweUoneTests.release.xcconfig */,
-				0BB82745D64DAFBC9B15E2D9 /* Pods-oweUoneUITests.debug.xcconfig */,
-				452191D7488799BB4BA33FF8 /* Pods-oweUoneUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -611,6 +602,11 @@
 			baseConfigurationReference = C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Firebase\"",
+					"/Users/xiaowenfeng/Documents/FacebookSDKs-iOS-20160412",
+				);
 				INFOPLIST_FILE = oweUone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "INFO498-iOS.oweUone";
@@ -623,6 +619,11 @@
 			baseConfigurationReference = AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Firebase\"",
+					"/Users/xiaowenfeng/Documents/FacebookSDKs-iOS-20160412",
+				);
 				INFOPLIST_FILE = oweUone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "INFO498-iOS.oweUone";
