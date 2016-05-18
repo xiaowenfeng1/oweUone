@@ -19,6 +19,8 @@
 		AE6807FC1CE56F60004CFE60 /* oweUoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */; };
 		AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE733E4C1CEBF8EB00061A9B /* Favor.swift */; };
 		AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */; };
+		AEDD336C1CECDA96002B6DFA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD336B1CECDA96002B6DFA /* Firebase.framework */; };
+		AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */; };
 		AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */; };
 		AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */; };
 		AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */; };
@@ -66,6 +68,8 @@
 		AE6807FD1CE56F60004CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE733E4C1CEBF8EB00061A9B /* Favor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favor.swift; sourceTree = "<group>"; };
 		AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-20160412/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AEDD336B1CECDA96002B6DFA /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../../../../Library/Developer/Xcode/DerivedData/oweUone-gndxegzdyjlyclegbsrigyuwfovg/Build/Products/Debug-iphonesimulator/Firebase/Firebase.framework"; sourceTree = "<group>"; };
+		AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-20160412/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorFeedViewController.swift; sourceTree = "<group>"; };
 		AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorDetailViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */,
+				AEDD336C1CECDA96002B6DFA /* Firebase.framework in Frameworks */,
 				1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */,
 				AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */,
 			);
@@ -107,6 +113,8 @@
 		212FE30667FD6CA88E475521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */,
+				AEDD336B1CECDA96002B6DFA /* Firebase.framework */,
 				AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */,
 				182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */,
 				5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */,

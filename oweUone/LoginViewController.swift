@@ -11,29 +11,64 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
 
-class LoginViewController: UIViewController {
- 
-    
-    func retrieveFBLogin() {
-        let ref = Firebase(url: "https://<YOUR-FIREBASE-APP>.firebaseio.com")
-        let facebookLogin = FBSDKLoginManager()
-        facebookLogin.logInWithReadPermissions(["email"], handler: {
-            (facebookResult, facebookError) -> Void in
-            if facebookError != nil {
-                print("Facebook login failed. Error \(facebookError)")
-            } else if facebookResult.isCancelled {
-                print("Facebook login was cancelled.")
-            } else {
-                let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
-                ref.authWithOAuthProvider("facebook", token: accessToken,
-                    withCompletionBlock: { error, authData in
-                        if error != nil {
-                            print("Login failed. \(error)")
-                        } else {
-                            print("Logged in! \(authData)")
-                        }
-                })
+class LoginViewController: UIViewController, FBSDKLoginButtonDelegate {
+
+        
+        let loginButton: FBSDKLoginButton = {
+            let button = FBSDKLoginButton()
+            button.readPermissions = ["email"]
+            return button
+        }()
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            view.addSubview(loginButton)
+            loginButton.center = view.center
+            
+            // check if is logged in
+            if let _ = FBSDKAccessToken.currentAccessToken() {
+                fetchProfile()
             }
+        }
+    
+    
+    func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+        
+        fetchProfile()
+    }
+    
+    func fetchProfile() {
+        let parameters = ["fields": "email, first_name, last_name, picture.type(large)"]
+        FBSDKGraphRequest(graphPath: "me", parameters: parameters).startWithCompletionHandler({ (connection, user, requestError) -> Void in
+            
+            if requestError != nil {
+                print(requestError)
+                return
+            }
+            
+          //  var email = user["email"] as? String
+            //let firstName = user["first_name"] as? String
+            //let lastName = user["last_name"] as? String
+            
+            //self.nameLabel.text = "\(firstName!) \(lastName!)"
+            
+            //var pictureUrl = ""
+            
+           // if let picture = user["picture"] as? NSDictionary, data = picture["data"] as? NSDictionary, url = data["url"] as? String {
+             //   pictureUrl = url
+            //}
+            
         })
     }
+    
+    func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
+        
+    }
+    
+    func loginButtonWillLogin(loginButton: FBSDKLoginButton!) -> Bool {
+        return true
+    }
+    
+ 
 }
