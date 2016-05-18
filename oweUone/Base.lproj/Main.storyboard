@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--My Favors-->
@@ -35,7 +36,29 @@
                     <view key="view" contentMode="scaleToFill" id="lVt-gW-o3f">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QIf-Rh-iZg">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Open Favors Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JMF-e1-7Aw">
+                                <rect key="frame" x="20" y="20" width="560" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QIf-Rh-iZg" firstAttribute="leading" secondItem="lVt-gW-o3f" secondAttribute="leadingMargin" constant="-20" id="27J-gM-VNa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JMF-e1-7Aw" secondAttribute="trailing" id="64P-nE-h84"/>
+                            <constraint firstItem="THV-a3-TRt" firstAttribute="top" secondItem="QIf-Rh-iZg" secondAttribute="bottom" id="6gd-p6-a5A"/>
+                            <constraint firstItem="QIf-Rh-iZg" firstAttribute="top" secondItem="JMF-e1-7Aw" secondAttribute="bottom" constant="16" id="d3k-0z-6rM"/>
+                            <constraint firstItem="JMF-e1-7Aw" firstAttribute="centerX" secondItem="lVt-gW-o3f" secondAttribute="centerX" id="fcF-HJ-LRr"/>
+                            <constraint firstItem="JMF-e1-7Aw" firstAttribute="top" secondItem="qFE-0E-fId" secondAttribute="bottom" id="jQl-k5-3cb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QIf-Rh-iZg" secondAttribute="trailing" constant="-20" id="juN-1z-UUM"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="JMF-e1-7Aw" secondAttribute="leading" id="zvY-Ol-LM3"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favors Feed" image="helping_hand-25" selectedImage="helping_hand_filled-25" id="udF-SW-ZVq"/>
                 </viewController>
