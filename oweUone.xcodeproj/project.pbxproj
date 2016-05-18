@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */; };
+		3FF8B6D824AABC7B4392D583 /* Pods_oweUoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */; };
+		6540BDC05A16CF89719A5CCC /* Pods_oweUoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */; };
 		AE6807DC1CE56F60004CFE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */; };
 		AE6807DE1CE56F60004CFE60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DD1CE56F60004CFE60 /* ViewController.swift */; };
 		AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6807DF1CE56F60004CFE60 /* Main.storyboard */; };
@@ -14,6 +17,12 @@
 		AE6807E61CE56F60004CFE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6807E41CE56F60004CFE60 /* LaunchScreen.storyboard */; };
 		AE6807F11CE56F60004CFE60 /* oweUoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807F01CE56F60004CFE60 /* oweUoneTests.swift */; };
 		AE6807FC1CE56F60004CFE60 /* oweUoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */; };
+		AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE733E4C1CEBF8EB00061A9B /* Favor.swift */; };
+		AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */; };
+		AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */; };
+		AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */; };
+		AEDD85DC1CEC00030041440E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DB1CEC00030041440E /* ProfileViewController.swift */; };
+		AEDD85DE1CEC00220041440E /* PostFavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FA8323AC3522192C22D927E /* Pods-oweUoneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneTests/Pods-oweUoneTests.release.xcconfig"; sourceTree = "<group>"; };
+		182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oweUone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oweUoneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oweUoneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9433D387A11C24AA531CCF72 /* Pods-oweUoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.release.xcconfig"; sourceTree = "<group>"; };
+		ADE2C6FD8F1AEA197E0FD444 /* Pods-oweUoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AE6807D81CE56F60004CFE60 /* oweUone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oweUone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6807DD1CE56F60004CFE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,14 @@
 		AE6807F71CE56F60004CFE60 /* oweUoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oweUoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oweUoneUITests.swift; sourceTree = "<group>"; };
 		AE6807FD1CE56F60004CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE733E4C1CEBF8EB00061A9B /* Favor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favor.swift; sourceTree = "<group>"; };
+		AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorFeedViewController.swift; sourceTree = "<group>"; };
+		AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorDetailViewController.swift; sourceTree = "<group>"; };
+		AEDD85DB1CEC00030041440E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFavorViewController.swift; sourceTree = "<group>"; };
+		C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.debug.xcconfig"; sourceTree = "<group>"; };
+		FBAF38646FCAD2489DBAA29B /* Pods-oweUoneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneTests/Pods-oweUoneTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6540BDC05A16CF89719A5CCC /* Pods_oweUoneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF8B6D824AABC7B4392D583 /* Pods_oweUoneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212FE30667FD6CA88E475521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */,
+				5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */,
+				1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E2A9E98A6833E323AB6E115 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */,
+				AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */,
+				FBAF38646FCAD2489DBAA29B /* Pods-oweUoneTests.debug.xcconfig */,
+				0FA8323AC3522192C22D927E /* Pods-oweUoneTests.release.xcconfig */,
+				9433D387A11C24AA531CCF72 /* Pods-oweUoneUITests.debug.xcconfig */,
+				ADE2C6FD8F1AEA197E0FD444 /* Pods-oweUoneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE6807CF1CE56F60004CFE60 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				AE6807EF1CE56F60004CFE60 /* oweUoneTests */,
 				AE6807FA1CE56F60004CFE60 /* oweUoneUITests */,
 				AE6807D91CE56F60004CFE60 /* Products */,
+				5E2A9E98A6833E323AB6E115 /* Pods */,
+				212FE30667FD6CA88E475521 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +151,12 @@
 			children = (
 				AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */,
 				AE6807DD1CE56F60004CFE60 /* ViewController.swift */,
+				AE733E4C1CEBF8EB00061A9B /* Favor.swift */,
+				AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */,
+				AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */,
+				AEDD85DB1CEC00030041440E /* ProfileViewController.swift */,
+				AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */,
+				AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */,
 				AE6807DF1CE56F60004CFE60 /* Main.storyboard */,
 				AE6807E21CE56F60004CFE60 /* Assets.xcassets */,
 				AE6807E41CE56F60004CFE60 /* LaunchScreen.storyboard */,
@@ -132,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE6808001CE56F60004CFE60 /* Build configuration list for PBXNativeTarget "oweUone" */;
 			buildPhases = (
+				DC4F5A3C8EF015BAEDA2391C /* 📦 Check Pods Manifest.lock */,
 				AE6807D41CE56F60004CFE60 /* Sources */,
 				AE6807D51CE56F60004CFE60 /* Frameworks */,
 				AE6807D61CE56F60004CFE60 /* Resources */,
+				C66C3DB018A99BD70D9DC2D8 /* 📦 Embed Pods Frameworks */,
+				EFAE58A9E19A087785440683 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE6808031CE56F60004CFE60 /* Build configuration list for PBXNativeTarget "oweUoneTests" */;
 			buildPhases = (
+				2511F71168ACD04A658C0ED4 /* 📦 Check Pods Manifest.lock */,
 				AE6807E81CE56F60004CFE60 /* Sources */,
 				AE6807E91CE56F60004CFE60 /* Frameworks */,
 				AE6807EA1CE56F60004CFE60 /* Resources */,
+				F5169A25EF9DE1EB39E16677 /* 📦 Embed Pods Frameworks */,
+				0A6140F3A10D6CC22340BDFB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE6808061CE56F60004CFE60 /* Build configuration list for PBXNativeTarget "oweUoneUITests" */;
 			buildPhases = (
+				4C11646596909603FE89622F /* 📦 Check Pods Manifest.lock */,
 				AE6807F31CE56F60004CFE60 /* Sources */,
 				AE6807F41CE56F60004CFE60 /* Frameworks */,
 				AE6807F51CE56F60004CFE60 /* Resources */,
+				DC99B5117BA5DADF7DAF7EFE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +320,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A6140F3A10D6CC22340BDFB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oweUoneTests/Pods-oweUoneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2511F71168ACD04A658C0ED4 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4C11646596909603FE89622F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C66C3DB018A99BD70D9DC2D8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oweUone/Pods-oweUone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC4F5A3C8EF015BAEDA2391C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DC99B5117BA5DADF7DAF7EFE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAE58A9E19A087785440683 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oweUone/Pods-oweUone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5169A25EF9DE1EB39E16677 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oweUoneTests/Pods-oweUoneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE6807D41CE56F60004CFE60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */,
 				AE6807DE1CE56F60004CFE60 /* ViewController.swift in Sources */,
+				AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */,
+				AEDD85DE1CEC00220041440E /* PostFavorViewController.swift in Sources */,
 				AE6807DC1CE56F60004CFE60 /* AppDelegate.swift in Sources */,
+				AEDD85DC1CEC00030041440E /* ProfileViewController.swift in Sources */,
+				AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */,
+				AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +595,7 @@
 		};
 		AE6808011CE56F60004CFE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = oweUone/Info.plist;
@@ -411,6 +607,7 @@
 		};
 		AE6808021CE56F60004CFE60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = oweUone/Info.plist;
@@ -422,6 +619,7 @@
 		};
 		AE6808041CE56F60004CFE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBAF38646FCAD2489DBAA29B /* Pods-oweUoneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = oweUoneTests/Info.plist;
@@ -434,6 +632,7 @@
 		};
 		AE6808051CE56F60004CFE60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA8323AC3522192C22D927E /* Pods-oweUoneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = oweUoneTests/Info.plist;
@@ -446,6 +645,7 @@
 		};
 		AE6808071CE56F60004CFE60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9433D387A11C24AA531CCF72 /* Pods-oweUoneUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = oweUoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -457,6 +657,7 @@
 		};
 		AE6808081CE56F60004CFE60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE2C6FD8F1AEA197E0FD444 /* Pods-oweUoneUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = oweUoneUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +686,7 @@
 				AE6808021CE56F60004CFE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE6808031CE56F60004CFE60 /* Build configuration list for PBXNativeTarget "oweUoneTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +695,7 @@
 				AE6808051CE56F60004CFE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE6808061CE56F60004CFE60 /* Build configuration list for PBXNativeTarget "oweUoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +704,7 @@
 				AE6808081CE56F60004CFE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
