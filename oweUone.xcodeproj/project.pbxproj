@@ -10,6 +10,7 @@
 		1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */; };
 		3FF8B6D824AABC7B4392D583 /* Pods_oweUoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */; };
 		6540BDC05A16CF89719A5CCC /* Pods_oweUoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */; };
+		AE57BEF81CED7B77008A493D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */; };
 		AE6807DC1CE56F60004CFE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */; };
 		AE6807DE1CE56F60004CFE60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DD1CE56F60004CFE60 /* ViewController.swift */; };
 		AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6807DF1CE56F60004CFE60 /* Main.storyboard */; };
@@ -19,7 +20,6 @@
 		AE6807FC1CE56F60004CFE60 /* oweUoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */; };
 		AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE733E4C1CEBF8EB00061A9B /* Favor.swift */; };
 		AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */; };
-		AEDD336C1CECDA96002B6DFA /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD336B1CECDA96002B6DFA /* Firebase.framework */; };
 		AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */; };
 		AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */; };
 		AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */; };
@@ -53,6 +53,7 @@
 		9433D387A11C24AA531CCF72 /* Pods-oweUoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.release.xcconfig"; sourceTree = "<group>"; };
 		ADE2C6FD8F1AEA197E0FD444 /* Pods-oweUoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE6807D81CE56F60004CFE60 /* oweUone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oweUone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6807DD1CE56F60004CFE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */,
-				AEDD336C1CECDA96002B6DFA /* Firebase.framework in Frameworks */,
 				1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */,
 				AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */,
 			);
@@ -172,6 +172,7 @@
 				AE6807DF1CE56F60004CFE60 /* Main.storyboard */,
 				AE6807E21CE56F60004CFE60 /* Assets.xcassets */,
 				AE6807E41CE56F60004CFE60 /* LaunchScreen.storyboard */,
+				AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */,
 				AE6807E71CE56F60004CFE60 /* Info.plist */,
 			);
 			path = oweUone;
@@ -311,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6807E61CE56F60004CFE60 /* LaunchScreen.storyboard in Resources */,
+				AE57BEF81CED7B77008A493D /* GoogleService-Info.plist in Resources */,
 				AE6807E31CE56F60004CFE60 /* Assets.xcassets in Resources */,
 				AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */,
 			);
