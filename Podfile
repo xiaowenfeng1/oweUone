@@ -6,7 +6,9 @@ target 'oweUone' do
   use_frameworks!
 
   # Pods for oweUone
-  pod 'Firebase', '>= 2.5.1'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod ‘Firebase/Auth’
   target 'oweUoneTests' do
     inherit! :search_paths
     # Pods for testing

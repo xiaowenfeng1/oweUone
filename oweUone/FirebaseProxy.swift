@@ -13,7 +13,7 @@ import Firebase
 
 class FirebaseProxy: NSObject {
     // Connect to Firebase DB
-    let myRootRef = Firebase(url:"https://oweuone.firebaseio.com/")
+    var myRootRef = FIRDatabase.database().reference()
     
     /* saveFavor saves an *uncompleted* favor for the given user with the follow information:
             - favor id: uniquely identify a favor

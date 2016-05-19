@@ -88,6 +88,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Favors Feed" image="helping_hand-25" selectedImage="helping_hand_filled-25" id="udF-SW-ZVq"/>
+                    <connections>
+                        <outlet property="tableView" destination="QIf-Rh-iZg" id="QTK-GU-wTF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Iy9-QF-B7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
