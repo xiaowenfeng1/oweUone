@@ -56,6 +56,25 @@ class LoginViewController: UIViewController {
         
     }
     
+    func getUserInfo() {
+        if FBSDKAccessToken.currentAccessToken() != nil {
+            print(FBSDKAccessToken.currentAccessToken().permissions)
+            let graphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, email"])
+            graphRequest.startWithCompletionHandler({ (connection, user, requestError) -> Void in
+                let FBid = user.valueForKey("id") as? String
+                
+                let url = NSURL(string: "https://graph.facebook.com/\(FBid!)/picture?type=large&return_ssl_resources=1")
+              //  self.imageView.image = UIImage(data: NSData(contentsOfURL: url!)!)
+            
+            
+            })
+            
+
+           
+        
+        }
+    }
+    
     
     /*
      

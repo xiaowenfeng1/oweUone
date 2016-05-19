@@ -11,6 +11,8 @@
 import UIKit
 import Firebase
 
+/*
+
 class FirebaseProxy: NSObject {
     // Connect to Firebase DB
     let myRootRef = Firebase(url:"https://oweuone.firebaseio.com/")
@@ -47,3 +49,5 @@ class FirebaseProxy: NSObject {
         
     }
 }
+ 
+ */
