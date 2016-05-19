@@ -10,6 +10,7 @@ target 'oweUone' do
     pod 'Firebase'
     pod 'Firebase/Auth'
     pod 'Firebase/Database'
+
   target 'oweUoneTests' do
     inherit! :search_paths
     # Pods for testing
