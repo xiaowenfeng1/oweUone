@@ -239,13 +239,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9eq-b2-VWc">
                                 <rect key="frame" x="168" y="91" width="240" height="128"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QZD-wg-RhD">
-                                <rect key="frame" x="91" y="446" width="394" height="30"/>
-                                <state key="normal" title="Proceed to App (remove this button when segue is setup)"/>
-                                <connections>
-                                    <segue destination="Xmz-U4-dAX" kind="show" id="zen-So-Mpq"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -619,7 +612,6 @@
         <image name="user_filled-25" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="B2l-Nr-IuT"/>
         <segue reference="yTj-qw-E8z"/>
     </inferredMetricsTieBreakers>
 </document>
