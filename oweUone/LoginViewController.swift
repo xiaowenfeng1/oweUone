@@ -20,9 +20,11 @@ import FBSDKLoginKit
 class LoginViewController: UIViewController {
     
     
+    var imageView : UIImageView!
+    @IBOutlet weak var imageView1: UIImageView!
     let loginButton = FBSDKLoginButton()
     
-    //let rootRef = FIRDatabase.database().referenceFromURL("oweuone.firebaseio.com")
+    let rootRef = FIRDatabase.database().reference()
    
     let user = FIRAuth.auth()?.currentUser
     
@@ -33,6 +35,11 @@ class LoginViewController: UIViewController {
         view.addSubview(loginButton)
         loginButton.center = view.center
         
+        imageView = UIImageView(frame: CGRectMake(0, 0, 100, 100))
+        imageView.center = CGPoint(x: view.center.x, y: 200)
+        imageView.image = UIImage(named: "fb-art")
+        view.addSubview(imageView)
+        
         
     }
     
@@ -41,18 +48,18 @@ class LoginViewController: UIViewController {
     
     
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError?) {
-        loginButton.readPermissions = ["email", "public_profile"]
-        if let error = error {
-            print(error.localizedDescription)
-            return
-        } else if result.isCancelled {
-            print("Cancelled")
-        } else {
+       // loginButton.readPermissions = ["email", "public_profile"]
+        //if let error = error {
+           // print(error.localizedDescription)
+       //     return
+        //} else if result.isCancelled {
+          //  print("Cancelled")
+      //  } else {
             
-            
+            getUserInfo()
             let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
             self.firebaseLogin(credential)
-        }
+        //}
         
     }
     
@@ -62,40 +69,15 @@ class LoginViewController: UIViewController {
             let graphRequest = FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, email"])
             graphRequest.startWithCompletionHandler({ (connection, user, requestError) -> Void in
                 let FBid = user.valueForKey("id") as? String
+              //  print(FBid!)
                 
                 let url = NSURL(string: "https://graph.facebook.com/\(FBid!)/picture?type=large&return_ssl_resources=1")
-              //  self.imageView.image = UIImage(data: NSData(contentsOfURL: url!)!)
+                self.imageView.image = UIImage(data: NSData(contentsOfURL: url!)!)
             
             
             })
-            
-
-           
-        
         }
     }
-    
-    
-    /*
-     
-     func FBLogin() {
-     // let loginButton = FBSDKLoginManager()
-     loginButton.readPermissions(["email"], fromViewController: self, handler: {(result, error) in
-     if let error = error {
-     print(error.localizedDescription)
-     } else if result.isCancelled {
-     print("cancelled")
-     } else {
-     let credential = FIRFacebookAuthProvider.credentialWithAccessToken(FBSDKAccessToken.currentAccessToken().tokenString)
-     self.firebaseLogin(credential)
-     }
-     
-     
-     })
-     
-     }
-     */
-    
     
     func firebaseLogin(credential: FIRAuthCredential) {
         if let user = FIRAuth.auth()?.currentUser {
@@ -111,7 +93,7 @@ class LoginViewController: UIViewController {
                              "Email": profile.email!
                         
                         ]
-                    //    self.rootRef.child("users").child(profile.uid).setValue(newUser as? AnyObject)
+                       //self.rootRef.child("users").child(profile.uid).setValue(newUser as? AnyObject)
                     }
                 }
             }
