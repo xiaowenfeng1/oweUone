@@ -7,11 +7,13 @@
 //
 
 import UIKit
+
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
 import FirebaseAuth
 import FirebaseDatabase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,8 +24,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         FIRApp.configure()
+
+        FIRDatabase.database().persistenceEnabled = true
         return FBSDKApplicationDelegate.sharedInstance()
             .application(application, didFinishLaunchingWithOptions: launchOptions)
+
+
+        
 
     }
 
