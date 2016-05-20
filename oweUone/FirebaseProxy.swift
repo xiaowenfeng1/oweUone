@@ -13,7 +13,9 @@ import Firebase
 
 class FirebaseProxy: NSObject {
     // Connect to Firebase DB
-    var myRootRef = FIRDatabase.database().reference()
+    var myRootRef = FIRDatabaseReference.init()
+    
+    
     
     /* saveFavor saves an *uncompleted* favor for the given user with the follow information:
             - favor id: uniquely identify a favor
@@ -23,6 +25,11 @@ class FirebaseProxy: NSObject {
             - creator: user Id of who created the favor
             - finisher: user Id of who completed the favor (not sure what to set this to if
      */
+    
+    override init() {
+        super.init()
+        myRootRef = FIRDatabase.database().reference()
+    }
     func saveFavor(id: Int, title: String, description: String, tokenAmount: Int, creator: Int, finisher: Int) {
         // time
         // favor name
@@ -41,6 +48,8 @@ class FirebaseProxy: NSObject {
             "completed" : "false" // added this here so later we can mark which ones have been completed
         ]
         myRootRef.setValue(favor)
+        myRootRef.child("users").child("test").setValue(["username": "PedroFreschi"])
+        print("saving!")
     }
     
     func getTask() {

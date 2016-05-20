@@ -23,6 +23,7 @@
 		AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */; };
 		AEDD85DC1CEC00030041440E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DB1CEC00030041440E /* ProfileViewController.swift */; };
 		AEDD85DE1CEC00220041440E /* PostFavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */; };
+		F40FCEE41CEE983C002D6E74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */; };
 		F4C6D18D1CEC086B001B5D2B /* MyFavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */; };
 		F4C6D18F1CEC3183001B5D2B /* FirebaseProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */; };
 		F4D0DA0C1CEE375A0091793A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F4D0DA0B1CEE375A0091793A /* .gitignore */; };
@@ -73,6 +74,7 @@
 		AEDD85DB1CEC00030041440E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFavorViewController.swift; sourceTree = "<group>"; };
 		C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.debug.xcconfig"; sourceTree = "<group>"; };
+		F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFavorViewController.swift; sourceTree = "<group>"; };
 		F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseProxy.swift; sourceTree = "<group>"; };
 		F4D0DA0B1CEE375A0091793A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */,
 				AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */,
 				F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */,
+				F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */,
 				AE6807DF1CE56F60004CFE60 /* Main.storyboard */,
 				F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */,
 				AE6807E21CE56F60004CFE60 /* Assets.xcassets */,
@@ -309,6 +312,7 @@
 			files = (
 				F4D0DA0C1CEE375A0091793A /* .gitignore in Resources */,
 				AE6807E61CE56F60004CFE60 /* LaunchScreen.storyboard in Resources */,
+				F40FCEE41CEE983C002D6E74 /* GoogleService-Info.plist in Resources */,
 				AE6807E31CE56F60004CFE60 /* Assets.xcassets in Resources */,
 				AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */,
 			);

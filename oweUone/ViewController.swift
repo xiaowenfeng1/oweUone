@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var newFireBase = FirebaseProxy()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
