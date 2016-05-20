@@ -10,5 +10,22 @@ import UIKit
 import Firebase
 
 class PostFavorViewController: UIViewController {
+    @IBOutlet weak var favorTitle: UITextField!
+    
+    @IBOutlet weak var favorDescription: UITextField!
 
+    @IBOutlet weak var tokenAmount: UITextField!
+    
+    @IBAction func postFavor(sender: AnyObject) {
+        
+        let fbProxy = FirebaseProxy()
+        
+        if (favorTitle.text != nil && favorDescription.text != nil && tokenAmount.text != nil){
+            fbProxy.saveFavor(favorTitle.text!, description: favorDescription.text!, tokenAmount: Int(tokenAmount.text!)!, creator: "this should be creator's id")
+        }
+        
+        
+        
+    }
+    
 }

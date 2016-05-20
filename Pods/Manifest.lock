@@ -1,6 +1,4 @@
 PODS:
-
-    - Firebase/Core (= 3.2.0)
   - Firebase/Analytics (3.2.0):
     - FirebaseAnalytics (= 3.2.0)
   - Firebase/Auth (3.2.0):
@@ -32,7 +30,6 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0)
 
 DEPENDENCIES:
-
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -48,8 +45,6 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
 
-
-PODFILE CHECKSUM: 73ac13872fe0ef0129cf22b9a0ea65bc82212267
-
+PODFILE CHECKSUM: bc9cbf4c2bbea20079ac355f13241a3cfe6a490f
 
 COCOAPODS: 1.0.0
