@@ -10,6 +10,7 @@
 		1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */; };
 		3FF8B6D824AABC7B4392D583 /* Pods_oweUoneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */; };
 		6540BDC05A16CF89719A5CCC /* Pods_oweUoneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */; };
+		AE57BEF81CED7B77008A493D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */; };
 		AE6807DC1CE56F60004CFE60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */; };
 		AE6807DE1CE56F60004CFE60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807DD1CE56F60004CFE60 /* ViewController.swift */; };
 		AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6807DF1CE56F60004CFE60 /* Main.storyboard */; };
@@ -18,12 +19,15 @@
 		AE6807F11CE56F60004CFE60 /* oweUoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807F01CE56F60004CFE60 /* oweUoneTests.swift */; };
 		AE6807FC1CE56F60004CFE60 /* oweUoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */; };
 		AE733E4D1CEBF8EB00061A9B /* Favor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE733E4C1CEBF8EB00061A9B /* Favor.swift */; };
+		AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */; };
+		AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */; };
 		AEDD85D61CEBFF5B0041440E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */; };
 		AEDD85D81CEBFFA70041440E /* FavorFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */; };
 		AEDD85DA1CEBFFE30041440E /* FavorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */; };
 		AEDD85DC1CEC00030041440E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DB1CEC00030041440E /* ProfileViewController.swift */; };
 		AEDD85DE1CEC00220041440E /* PostFavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */; };
 		F40FCEE41CEE983C002D6E74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */; };
+
 		F4C6D18D1CEC086B001B5D2B /* MyFavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */; };
 		F4C6D18F1CEC3183001B5D2B /* FirebaseProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */; };
 		F4D0DA0C1CEE375A0091793A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F4D0DA0B1CEE375A0091793A /* .gitignore */; };
@@ -54,6 +58,7 @@
 		9433D387A11C24AA531CCF72 /* Pods-oweUoneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.release.xcconfig"; sourceTree = "<group>"; };
 		ADE2C6FD8F1AEA197E0FD444 /* Pods-oweUoneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUoneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oweUoneUITests/Pods-oweUoneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AE6807D81CE56F60004CFE60 /* oweUone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oweUone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6807DB1CE56F60004CFE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6807DD1CE56F60004CFE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +73,9 @@
 		AE6807FB1CE56F60004CFE60 /* oweUoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oweUoneUITests.swift; sourceTree = "<group>"; };
 		AE6807FD1CE56F60004CFE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE733E4C1CEBF8EB00061A9B /* Favor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favor.swift; sourceTree = "<group>"; };
+		AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-20160412/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		AEDD336B1CECDA96002B6DFA /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = "../../../../Library/Developer/Xcode/DerivedData/oweUone-gndxegzdyjlyclegbsrigyuwfovg/Build/Products/Debug-iphonesimulator/Firebase/Firebase.framework"; sourceTree = "<group>"; };
+		AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../Documents/FacebookSDKs-iOS-20160412/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		AEDD85D51CEBFF5B0041440E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AEDD85D71CEBFFA70041440E /* FavorFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorFeedViewController.swift; sourceTree = "<group>"; };
 		AEDD85D91CEBFFE30041440E /* FavorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavorDetailViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +83,7 @@
 		AEDD85DD1CEC00220041440E /* PostFavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFavorViewController.swift; sourceTree = "<group>"; };
 		C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oweUone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oweUone/Pods-oweUone.debug.xcconfig"; sourceTree = "<group>"; };
 		F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+
 		F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFavorViewController.swift; sourceTree = "<group>"; };
 		F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseProxy.swift; sourceTree = "<group>"; };
 		F4D0DA0B1CEE375A0091793A /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -86,7 +95,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDD336E1CECDAA7002B6DFA /* FBSDKLoginKit.framework in Frameworks */,
 				1C15E31D35C70393B10E07CD /* Pods_oweUone.framework in Frameworks */,
+				AEDD33601CEC14E7002B6DFA /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +123,9 @@
 		212FE30667FD6CA88E475521 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEDD336D1CECDAA7002B6DFA /* FBSDKLoginKit.framework */,
+				AEDD336B1CECDA96002B6DFA /* Firebase.framework */,
+				AEDD335F1CEC14E7002B6DFA /* FBSDKCoreKit.framework */,
 				182CC03F797A11EB765E1EDE /* Pods_oweUone.framework */,
 				5B579AA62541A7E8212F56F0 /* Pods_oweUoneTests.framework */,
 				1E3D5047D83EC16605B75087 /* Pods_oweUoneUITests.framework */,
@@ -168,10 +182,12 @@
 				F4C6D18C1CEC086B001B5D2B /* MyFavorViewController.swift */,
 				F40FCEE31CEE983C002D6E74 /* GoogleService-Info.plist */,
 				AE6807DF1CE56F60004CFE60 /* Main.storyboard */,
+				F43A2DDB1CEE5241008068E1 /* GoogleService-Info.plist */,
 				F4C6D18E1CEC3183001B5D2B /* FirebaseProxy.swift */,
 				AE6807E21CE56F60004CFE60 /* Assets.xcassets */,
 				F4D0DA0B1CEE375A0091793A /* .gitignore */,
 				AE6807E41CE56F60004CFE60 /* LaunchScreen.storyboard */,
+				AE57BEF71CED7B77008A493D /* GoogleService-Info.plist */,
 				AE6807E71CE56F60004CFE60 /* Info.plist */,
 			);
 			path = oweUone;
@@ -313,6 +329,7 @@
 				F4D0DA0C1CEE375A0091793A /* .gitignore in Resources */,
 				AE6807E61CE56F60004CFE60 /* LaunchScreen.storyboard in Resources */,
 				F40FCEE41CEE983C002D6E74 /* GoogleService-Info.plist in Resources */,
+
 				AE6807E31CE56F60004CFE60 /* Assets.xcassets in Resources */,
 				AE6807E11CE56F60004CFE60 /* Main.storyboard in Resources */,
 			);
@@ -614,6 +631,11 @@
 			baseConfigurationReference = C983C79DB4DAA5F4E36BFB84 /* Pods-oweUone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Firebase\"",
+					"/Users/xiaowenfeng/Documents/FacebookSDKs-iOS-20160412",
+				);
 				INFOPLIST_FILE = oweUone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "INFO498-iOS.oweUone";
@@ -626,6 +648,11 @@
 			baseConfigurationReference = AD37B0185686535A0CCB380B /* Pods-oweUone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Firebase\"",
+					"/Users/xiaowenfeng/Documents/FacebookSDKs-iOS-20160412",
+				);
 				INFOPLIST_FILE = oweUone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "INFO498-iOS.oweUone";
